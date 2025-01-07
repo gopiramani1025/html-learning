@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+</head>
+<body>
+    <iframe src="https://shikshaskills.org.in/" width="100%"></iframe>
+    <form action="" method="get">
+        <input type="text" name="get_method">
+        <input type="submit" value="Submit">
+        <br>
+
+        <nav class="menu">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+          <br>
+
+          <p>Battery level: <meter min="0" max="80" value="45">45%</meter></p>
+          <br>
+          
+    </form>
+    <form action="" method="post">
+        <input type="text" name="post_method"> 
+        <br/>
+
+         <input type="checkbox" name="test" id="test"> <label for="test">Terms and Condition</label>
+        <hr>
+
+        <textarea name="" id="" cols="10" rows="10"></textarea>
+        <br>
+
+        <button type="submit">Submit</button>
+        <br>
+
+        <input type="date" id="start" name="trip-start" value="2025-01-01"  max="2025-12-31" />
+        <br>
+
+        <label> Enter your birthday:
+        <input type="date" name="bday" />
+        </label>
+        <br>
+
+        <label for="time">Choose a time for your appointment:</label>
+        <input type="datetime-local" id="time" name="time" value="2025-01-01T1:30" max="2025-12-31T12:00" />
+        <br>
+
+        <input type="range" id="volume" name="volume" min="10" max="20" step="0.1" />
+        <label for="volume">volume</label><br>
+        <label for="temp">Choose a comfortable temperature:</label>
+        <br />
+
+<input type="range" id="temp" name="temp" list="markers" />
+<datalist id="markers">
+  <option value="0" ></option>
+  <option value="20"></option>
+  <option value="40"></option>
+  <option value="60"></option>
+  <option value="80"></option>
+  <option value="90"></option>
+  <option value="100"></option>
+</datalist>
+<br>
+
+<label for="site-search">Search the site:</label>
+<input type="search" id="site-search" name="" />
+<button>Search</button>
+<br>
+
+<label for="week">What week would you like to start?</label>
+<input id="week" type="week" name="week" />
+<br>
+<form>
+    <tr>
+        <td>select your language</td>
+        <td>
+            <select>
+                <option>English</option>
+                <option>Gujrati</option>
+                <option>Hindi</option>
+            </select>
+        </td>
+    </tr>
+</form>
+
+    </form>
+</body>
+</html>
